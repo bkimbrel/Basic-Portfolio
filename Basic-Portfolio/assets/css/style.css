@@ -8,14 +8,13 @@ body {
 	width: 960px;
 }
 
-div.content {
+.content {
 	width: 510px;
 	margin: 35px auto 35px 80px;
 	border: 2px solid #cccccc;
 	background-color: #ffffff;
 	padding: 35px;
 }
-
 
 aside {
     display: block;
@@ -101,16 +100,113 @@ a {
 
 .form {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+
 }
 
 input {
 	
 	width: 100%;
+	color: #B8B8B8;
+	border: 1px solid #cccccc;
 }
 
 #message {
 	height: 200px;
 }
+
+input[type=submit] {
+    width: 25%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 7px 15px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.content-portfolio {
+	width: 510px;
+	border: 2px solid #cccccc;
+	background-color: #ffffff;
+	padding: 35px;
+	margin: 35px auto 35px 35px;
+
+}
+.tech-photos {
+	width: 100%;
+	position: relative;
+
+}
+
+.h2_box {
+	position: absolute;
+	top: 100px;
+	left: -80px;
+	color: #ffffff; 
+	text-align: center;
+	background-color: #4aaaa5;
+	width: 215px;
+	height: 40px;
+	padding-top: 15px;
+	margin: 0px 0px 0px 80px;	
+}
+
+.h2_box2 {
+	position: absolute;
+	top: 100px;
+	left: 159px;
+	color: #ffffff; 
+	text-align: center;
+	background-color: #4aaaa5;
+	width: 215px;
+	height: 40px;
+	padding-top: 15px;
+	margin: 0px 0px 0px 80px;	
+}
+
+.h2_box3 {
+	position: absolute;
+	top: 295px;
+	left: -80px;
+	color: #ffffff; 
+	text-align: center;
+	background-color: #4aaaa5;
+	width: 215px;
+	height: 40px;
+	padding-top: 15px;
+	margin: 0px 0px 0px 80px;	
+}
+
+.h2_box4 {
+	position: absolute;
+	top: 295px;
+	left: 159px;
+	color: #ffffff; 
+	text-align: center;
+	background-color: #4aaaa5;
+	width: 215px;
+	height: 40px;
+	padding-top: 15px;
+	margin: 0px 0px 0px 80px;	
+}
+
+.h2_box5 {
+	position: absolute;
+	top: 490px;
+	left: -80px;
+	color: #ffffff; 
+	text-align: center;
+	background-color: #4aaaa5;
+	width: 215px;
+	height: 40px;
+	padding-top: 15px;
+	margin: 0px 0px 0px 80px;	
+}
+
+
 
 
 header {
